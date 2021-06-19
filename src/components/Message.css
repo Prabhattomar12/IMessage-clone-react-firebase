@@ -1,0 +1,45 @@
+.message {
+  width: 30vw;
+    display: flex;
+  align-items: center;
+  margin: 20px;
+  
+
+}
+
+.text{
+    padding: 15px;
+    border-radius: 999px;
+    background-color: #dbd9d9;
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+.message_detail{
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+.message_detail > span {
+    margin-left: 10px;
+}
+
+.message_photo {
+    margin: 10px;
+    order: 0;
+}
+
+.message_sender {
+  margin-left: auto;
+  
+
+}
+
+.message_sender > .message_info > .text {
+    background-color: #3ea4fb;
+    color: white;
+}
+
+.message_sender > .message_photo {
+    order: 1;
+}
